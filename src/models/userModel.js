@@ -1,4 +1,5 @@
 import mongoose from 'mongoose'
+import { isGoodPassword } from '../utils/validators.js';
 
 //definomos la coleccion de usuario (tabla en relacional)
 const userSchema = new mongoose.Schema({
